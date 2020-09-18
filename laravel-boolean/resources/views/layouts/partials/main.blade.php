@@ -1,5 +1,5 @@
-<div class="">
+{{-- <div class="">
   @php
     echo {{ $data }}
   @endphp
-</div>
+</div> --}}

@@ -1,3 +1,4 @@
+/* header */
 .container{
   width: 100%;
   display: flex;
@@ -11,4 +12,33 @@ h2 a{
 .container-home{
   display: flex;
   justify-content: center;
+}
+/* footer */
+.container-footer{
+  display: flex;
+  justify-content: center;
+}
+.molisana{
+  width: 20%;
+  text-align: center;
+  margin: 100px;
+}
+.molisana img{
+  width: 200px;
+}
+.pastificio{
+  width: 20%;
+  text-align: center;
+  margin: 100px;
+}
+.pastificio h2{
+  height: 100px;
+}
+.dachef{
+  width: 20%;
+  text-align: center;
+  margin: 100px;
+}
+.dachef h2{
+height: 100px;
 }
