@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container img{
+  margin-bottom: 80px;
+}
 .container{
   width: 100%;
   display: flex;
