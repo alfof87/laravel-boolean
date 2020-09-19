@@ -1,4 +1,9 @@
 /* header */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container{
   width: 100%;
   display: flex;
@@ -12,6 +17,26 @@ h2 a{
 .container-home{
   display: flex;
   justify-content: center;
+}
+/* main */
+.paste img{
+  width: 280px;
+  margin: 10px;
+}
+.paste-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.paste{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  
+  margin-right: 150px;
+}
+.paste-container h2{
+  margin: 10px;
 }
 /* footer */
 .container-footer{

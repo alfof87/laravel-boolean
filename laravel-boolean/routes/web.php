@@ -148,7 +148,7 @@ Route::get('/main', function(){
     ]
   ];
 
-  return view('layouts.main-layout', compact("data"));
+  return view('layouts.main-layout', compact('data'));
 });
 ////////////////////////////////////////////////////////////
 Route::get('/footer', function(){
