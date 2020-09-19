@@ -1,5 +1,5 @@
 <div class="paste-container">
-  <h2>LE LUNGHE</h2>
+  <h1>LE LUNGHE</h1>
   <div class="paste">
       @foreach ($data as $x)
         @if ($x["tipo"] == "lunga")
@@ -8,7 +8,7 @@
       @endforeach
   </div>
   {{-- corte --}}
-  <h2>LE CORTE</h2>
+  <h1>LE CORTE</h1>
   <div class="paste">
       @foreach ($data as $x)
         @if ($x["tipo"] == "corta")
@@ -17,7 +17,7 @@
       @endforeach
   </div>
   {{-- cortissime --}}
-  <h2>LE CORTISSIME</h2>
+  <h1>LE CORTISSIME</h1>
   <div class="paste">
       @foreach ($data as $x)
         @if ($x["tipo"] == "cortissima")
