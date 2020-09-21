@@ -8,8 +8,12 @@
   <body>
     <header>
       @include("layouts.partials.header")
-      @include("layouts.partials.main")
-      @include("layouts.partials.footer")
     </header>
+    <main>
+      @include("layouts.partials.main")
+    </main>
+    <footer>
+      @include("layouts.partials.footer")
+    </footer>
   </body>
 </html>
