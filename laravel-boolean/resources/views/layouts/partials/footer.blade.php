@@ -49,4 +49,19 @@
         Quadrate
     </p>
   </div>
+  <div class="dachef">
+    <h2>PRODOTTI</h2>
+    <ul>
+      <li>Le Classiche</li>
+      <li>Le Integrali</li>
+      <li>Le Speciali</li>
+      <li>Le Biologiche</li>
+      <li>Le Gluten-Free</li>
+      <li>Le Semole</li>
+      <li>Le Extra Lusso</li>
+    </ul>
+  </div>
+</div>
+<div class="matese">
+  <img src="{{ asset('images/marchio-matese-tab.png') }}" alt="">
 </div>

@@ -1,9 +1,14 @@
-/* header */
+/* regole generali */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* body{
+  width: 100%;
+  background-image: url("../images/fondo-pag-speciali.jpg");
+} */
+/* header */
 .container img{
   margin-bottom: 80px;
 }
@@ -69,4 +74,12 @@ h2 a{
 }
 .dachef h2{
 height: 100px;
+}
+.dachef ul li{
+  list-style-type: none;
+}
+.matese{
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/footer-montagne-bottom.jpg");
 }
